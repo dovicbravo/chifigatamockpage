@@ -1,0 +1,126 @@
+body {
+	margin: 0px;
+	font-family: poppins, sans-serif;
+	font-size: 1rem;
+}
+
+/* Header */
+h1 {
+	font-family: poppins;
+	font-size: 4em;
+	text-align: center;
+	color: darkorange;
+}
+
+.header {
+	display: flex;
+	flex-direction: column;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-around;
+	margin: 0 10%;
+}
+
+.navbar p {
+	display: inline-block;
+	font-size: 1.5em;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	font-size: 1.1em;
+}
+
+/* Mission */
+.mission {
+	background-color: hsla(27, 90%, 49%, 0.5);
+}
+.mission-text {
+	text-align: center;
+	font-size: 2em;
+	padding-top: 10px;
+}
+
+.mission-image {
+	max-width: 1100px;
+	text-align: center;
+	margin: 0 auto;
+	list-style: none;
+	padding-bottom: 5%;
+	flex-wrap: wrap;
+}
+
+.mission-image img {
+	width: 100%;
+	height: auto;
+	margin-bottom: 15px;
+	box-shadow: 4px 4px 5px #888888;
+}
+
+/* Container */
+.product-text {
+	text-align: center;
+	font-size: 2em;
+}
+.products {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.products img {
+	width: 450px;
+	height: 400px;
+	margin: 20px;
+	transition: all 0.3s;
+	box-shadow: 4px 4px 5px #888888;
+}
+
+.products img:hover {
+	transform: scale(1.1);
+}
+
+/* Our Team */
+.team-container {
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.team {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	text-align: center;
+	background-color: hsla(27, 90%, 49%, 0.5);
+}
+
+.teammate {
+	padding: 10px;
+	flex-basis: 280px;
+}
+
+.teammate img {
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+	height: 250px;
+	box-shadow: 4px 4px 5px #888888;
+}
+
+/* Contact */
+.contact {
+	text-align: center;
+}
+
+footer {
+	padding: 1.5rem 2rem;
+	background-color: #888888;
+	text-align: end;
+}
