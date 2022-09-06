@@ -123,3 +123,29 @@ footer {
 	background-color: #888888;
 	text-align: end;
 }
+
+@media all and (max-width: 480px) {
+	a {
+		font-size: 12px;
+	}
+
+	a:hover {
+		font-size: 12px;
+	}
+}
+
+@media all and (max-width: 500px) {
+	a {
+		font-size: 12px;
+	}
+
+	a:hover {
+		font-size: 12px;
+	}
+}
+
+@media all and (max-width: 768px) {
+	a {
+		font-size: 12px;
+	}
+}
